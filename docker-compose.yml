@@ -41,7 +41,7 @@ services:
     environment:
       - CHOKIDAR_USEPOLLING=true
     ports:
-      - "3000:3000"
+      - "1337:80"
     volumes:
       - "./frontend:/frontend"
       - "/frontend/node_modules"
